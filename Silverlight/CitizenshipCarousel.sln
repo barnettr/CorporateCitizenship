@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carousel", "Carousel\Carousel.csproj", "{988000A9-AB30-4592-AFAA-EBEBDC1DCA56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carousel.Web", "Carousel.Web\Carousel.Web.csproj", "{D17A64AE-FF56-4C38-8BC5-24E235ABF229}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{6C9D5799-68EC-4EFE-B113-207F94F6C7BC}"
+	ProjectSection(SolutionItems) = preProject
+		References\Pop.Silverlight.Download.dll = References\Pop.Silverlight.Download.dll
+		References\System.Windows.Controls.Toolkit.dll = References\System.Windows.Controls.Toolkit.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(VaultVsipSolution-v2) = preSolution
+		VaultHost = http://pop-devapps/VaultService
+		VaultRepositoryID = 117
+		VaultRepositoryGUID = c98e836d-2fa3-4db8-a518-fa08cbe50da5
+		ProjectCount = 3
+		ProjectRelativeDiskPath1 = Carousel\Carousel.csproj
+		ProjectRelativeDiskPath2 = Carousel.Web\Carousel.Web.csproj
+		ProjectRelativeDiskPath3 = CitizenshipCarousel.sln
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{988000A9-AB30-4592-AFAA-EBEBDC1DCA56}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{988000A9-AB30-4592-AFAA-EBEBDC1DCA56}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{988000A9-AB30-4592-AFAA-EBEBDC1DCA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988000A9-AB30-4592-AFAA-EBEBDC1DCA56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D17A64AE-FF56-4C38-8BC5-24E235ABF229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17A64AE-FF56-4C38-8BC5-24E235ABF229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17A64AE-FF56-4C38-8BC5-24E235ABF229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17A64AE-FF56-4C38-8BC5-24E235ABF229}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

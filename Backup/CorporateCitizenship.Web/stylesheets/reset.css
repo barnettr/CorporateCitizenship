@@ -1,0 +1,141 @@
+/*	-----------------------------------------------
+
+	Resets And Primitives
+
+	----------------------------------------------- */
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,iframe {
+	padding:0;
+	margin:0;
+}
+
+body {
+	background: #fff;
+	color: #000;
+	font-size: 62.5%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 { font-weight:bold; }
+
+h1 { 
+	font-size: 1em; 
+	line-height: 1em;
+}
+
+h2 {
+	font-size: 1em;
+	line-height: 1em;
+}
+
+h3 { 
+	font-size: 1em; 
+	line-height: 1em;
+}
+
+h4 { 
+	font-size: 1em; 
+	line-height: 1em;
+}
+
+h5 {
+	font-size: 1em; 
+	line-height: 1em;
+}
+
+h6 {
+	font-size: 1em; 
+	line-height: 1em;
+}
+
+p { 
+	font-size: 1em; 
+	line-height: 1em;
+}
+
+address,caption,cite,code,dfn,th,var { 
+	font-style: normal; 
+	font-weight: normal; 
+}
+
+ul,ol { 
+	list-style: none; 
+}
+
+a { 
+	color: #000;
+	text-decoration: underline; 
+}
+
+object, a {outline: none;}
+
+a:hover {
+}
+
+abbr,img { 
+	border: 0; 
+}
+
+strong { 
+	font-weight: bold;
+}
+
+em {
+	font-style: italic; 
+}
+
+table {
+	border-collapse: collapse;
+}
+
+caption,th,td {
+	text-align: left;
+	font-weight: normal;
+}
+
+
+.invisible { display: none; }
+
+.offscreen {
+	display: block;
+	left: -999999em;
+	position: absolute;
+	top: -999999em;
+}
+
+.clearer{
+	clear: both;
+}
+
+.clear:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0px;
+	margin-top: -1px;
+	visibility: hidden;
+}
+
+
+/*	-----------------------------------------------
+
+	Chrome
+
+	----------------------------------------------- */
+
+
+
+/*	-----------------------------------------------
+
+	Widgets
+
+	----------------------------------------------- */
+
+
+
+/*	-----------------------------------------------
+
+	Page Specific Style
+
+	----------------------------------------------- */

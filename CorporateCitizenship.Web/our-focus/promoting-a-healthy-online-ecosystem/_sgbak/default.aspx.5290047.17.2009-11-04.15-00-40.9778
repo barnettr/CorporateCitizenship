@@ -1,0 +1,140 @@
+<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/masterpages/Detail.Master"
+         Inherits="CorporateCitizenship.Web.OurFocus.PromotingAHealthyOnlineEcosystem.DefaultPage" Src="default.aspx.cs"%>
+
+<asp:Content ID="Content5" ContentPlaceHolderID="head" runat="server">
+    <title>Promoting a Healthy Online Ecosystem</title>
+    <meta name="keywords" content="Microsoft Corporate Citizenship, innovation, ecosystem" />
+    <meta name="description" content="Microsoft corporate citizenship promotes healthy competition, innovation, and consumer choice on the Internet as well as privacy, safety, and freedom." />
+</asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="header_title" runat="server">
+<h1>Promoting a Healthy Online Ecosystem</h1>
+<h2>Fostering An Internet That Benefits All Users</h2>
+</asp:Content>
+
+<%-- breadcrumbs --%>
+<asp:Content ID="Content1" ContentPlaceHolderID="breadcrumbs" runat="server">
+<li><a id="A1" runat="server" href="~/">Home</a> &gt;</li>
+<li><a id="A2" runat="server" href="~/our-focus">Our Focus</a> &gt;</li>
+<li class="last">Promoting a Healthy Online Ecosystem</li>
+</asp:Content>
+
+<%-- primary content block --%>
+<asp:Content ID="Content2" ContentPlaceHolderID="primary_block" runat="server">
+<div class="panel">
+    <p class="intro">
+    We believe that the Internet, like an ecosystem in the natural world, is an inter-dependent network of participants&mdash;consumers, content publishers, advertisers, network operators and service providers. This means we all have an interest in ensuring the Internet and other communication networks promote healthy competition, innovation and consumer choice, as well as privacy, safety and freedom. 
+    </p>
+
+    <ul class="links">
+        <li><a href="http://download.microsoft.com/download/D/B/B/DBB76F90-3AB5-40BA-AFAB-431D8127EA65/    msft_online_2pager_lowres_100809.pdf" class="arrow down">Promoting a Healthy Online Ecosystem Policy Brief (PDF, 402 KB) Download</a></li>
+        <li><a href="http://download.microsoft.com/download/D/B/B/DBB76F90-3AB5-40BA-AFAB-431D8127EA65/msft_online_lowres_100809.pdf" class="arrow diagonal">Online Policy Brief – Executive Summary (PDF, 157 KB) Download</a></li>
+    </ul>
+
+</div>
+
+  <ul class="faux-two-column content-heavy">
+	<li>
+		<img runat="server" src="~/images/our-focus/onlineecosystem/softwareservices.jpg" alt="">
+		<div>
+			<h3>
+				Software + Services
+			</h3>
+			<p>
+				We are on the verge of a new era of computing, in which software and intelligent devices, like computers and cell phones, connect with Internet-based data storage and services. This allows users the most choice and flexibility in their computing while controlling IT costs, accessing new services quickly, and tapping into almost limitless computing power, while retaining control of important local data and applications. 
+			</p>
+			
+			<ul class="links">
+                <li><a href="http://download.microsoft.com/download/D/B/B/DBB76F90-3AB5-40BA-AFAB-431D8127EA65/msft_online_lowres_100809.pdf" class="arrow down">Next Generation Computing Policy Brief</a></li>
+                <li><a href="http://download.microsoft.com/download/D/B/B/DBB76F90-3AB5-40BA-AFAB-431D8127EA65/msft_online_2pager_lowres_100809.pdf" class="arrow down">Next Generation Computing Policy Brief – Executive Summary</a></li>
+                <li><a href="http://www.microsoft.com/softwareplusservices/" class="arrow diagonal">Microsoft Strategy: Software + Service</a></li>
+			</ul>
+		</div>
+	</li>
+	<li>
+		<img runat="server" src="~/images/our-focus/onlineecosystem/interoperability.jpg" alt="">
+		<div>
+			<h3>
+				Interoperability and Consumer Choice
+			</h3>
+			<p>
+				When online products and services work together&mdash;commonly called &ldquo;interoperability&rdquo;&mdash; consumers have more choice. We believe that consumers should have the freedom to use whatever technologies best meet their needs. Microsoft and other companies are working together to make sure that devices and software from different companies can function better together, and that people can access and move their data no matter where it is created and stored. Government policies can promote user choice by supporting industry-led efforts to promote interoperability among products from different vendors and to ensure that users have access to their data across various online products and services.
+			</p>
+		    <ul class="links">
+				<li><a id="A5" class="arrow diagonal learn-more" href="http://www.microsoft.com/interop/" name="A4">Interoperability at Microsoft</a></li>
+                <li><a href="http://interopvendoralliance.org/default.aspx" class="arrow diagonal">Interop Vendor Alliance </a></li>
+		    </ul>
+		</div>
+	</li>
+	<li>
+		<img runat="server" src="~/images/our-focus/onlineecosystem/internetsecurity.jpg" alt="">
+		<div>
+			<h3>
+				Internet Safety and Security
+			</h3>
+			<p>
+				The internet helps bring us together, but users are also vulnerable to safety and security risks, including identity theft, cyber bullying, phishing scams, and other malicious and criminal activity. End To End Trust is our vision of a safer, more trusted internet; this vision can only be achieved through industry-wide collaboration between hardware, software, service providers, internet users and governments.
+			</p><a id="A4" class="arrow diagonal learn-more" href="http://www.microsoft.com/mscorp/twc/policymakers_us.mspx" name="A4">Privacy, Internet Safety and Security</a>
+		</div>
+	</li>
+	<li>
+		<img runat="server" src="~/images/our-focus/onlineecosystem/accessibility.jpg" alt="">
+		<div>
+			<h3>
+				Accessibility
+			</h3>
+			<p>
+				We focus on making computing easier for all people to see, hear and use, regardless of age, literacy, or disabilities. Well-designed technology can empower and connect an aging population, as well as people with disabilities, enhancing education, reducing barriers to employment, enabling them to continue working longer, and increasing their access to public services. 
+			</p>
+    		<ul class="links">
+                <li><a href="http://www.microsoft.com/enable" class="arrow diagonal">Microsoft and Accessibility</a></li>
+                <li><a href="http://download.microsoft.com/download/C/6/9/C69D0366-C3EB-4376-B42B-7820EFE844BB/Microsoft_on_the_Topic_Accessibility.doc" class="arrow down">Microsoft on the Topic: Accessibility (Word file, 1.52 MB) Download </a></li>			
+			</ul>			
+			
+			
+		</div>
+	</li>
+	<li>
+		<img runat="server" src="~/images/our-focus/onlineecosystem/freedomofexpression.jpg" alt="">
+		<div>
+			<h3>
+				Freedom of Expression
+			</h3>
+			<p>
+				Technological advances make it easier for people to publish and respond to news, information and opinions, which let us explore ideas, check facts, and expose truths. We work hard to foster an Internet that is reliable and trustworthy. Ultimately we believe freedom of expression online will benefit societies, spurring innovation, academic enquiry and economic development. We have partnered with other leading companies, academics and interest groups to form Global Network Initiative, which provides operational guidance to the IT sector and is grounded in internationally recognized principles of free expression. 
+			</p>
+	
+			<ul class="links">
+                <li><a href="http://www.globalnetworkinitiative.org/" class="arrow diagonal">Freedom of Expression and the Global Network Initiative</a></li>
+                <li><a href="http://www.microsoft.com/presspass/press/2006/jan06/01-31BloggingPR.mspx" class="arrow diagonal">Microsoft Blog Content Policy Framework</a></li>
+                <li><a href="http://download.microsoft.com/download/C/6/9/C69D0366-C3EB-4376-B42B-7820EFE844BB/Microsoft_on_the_Topic_Freedom_of_Expression.doc" class="arrow down">Microsoft on the Topic: Online Freedom of Expression (Word file, 1.51 MB) Download</a></li>
+			</ul>
+		</div>
+	</li>
+    <li>
+        <img id="Img4" runat="server" src="~/images/our-focus/publicpolicyagenda.jpg" alt="" />
+        <div>
+            <h3>Microsoft's Public Policy Agenda</h3>
+            <p>
+                Technology innovation will be key to unlocking new opportunities&mdash;from healthcare and education to energy independence and climate change. Microsoft welcomes the opportunity to help achieve these important economic and social goals.  
+            </p>
+            <ul class="links">
+                <li><a id="A3" class="arrow down" runat="server" href="http://download.microsoft.com/download/d/0/9/d09fda37-e3b2-4629-8691-7bb16e2613b8/Public_Policy_Agenda.pdf">Microsoft Public Policy Agenda (PDF file, 220 KB)</a></li>
+            </ul>          
+        </div>
+    </li>  		
+</ul>
+
+
+
+
+<div class="clearer">&nbsp;</div>
+
+</asp:Content>
+
+<%-- secondary content block --%>
+<asp:Content ID="Content3" ContentPlaceHolderID="secondary_block" runat="server">
+    <div class="secondary-video">
+        <object type="application/x-silverlight" data="data:application/x-silverlight," width="230px" height="174px" ><param name="source" value="http://img.microsoft.com/showcase/silverlight/player/1/player-en.xap" /><param name="background" value="black" /><param name="version" value="2.0.31005.0" /><param name="enableHtmlAccess" value="true" /><param name="initParams" value="Uuid=9a63106f-8bab-408d-8c12-4d522f1eddf5,Autoplay=false,ShowMenu=true,ShowMarketingOverlay=false,Share=Spaces;Digg;Delicious;Facebook;Twitter;,Tabs=Email;Embed;Share;Info;,VideoInfo=Title;Views;Time;,ShowWaterMark=false,WaterMarkUrl=null,Culture=en,LearnMoreUrl=,MiscControls=FullScreen;Detached" /><param name="allowHtmlPopupWindow" value="true" /><param name="locale" value="en" /><a href="http://go.microsoft.com/fwlink/?LinkID=124807" style="text-decoration: none;"><img src="http://img.microsoft.com/showcase/silverlight/player/1/img/locale/en/install.gif" alt='Get Microsoft Silverlight' /></a><noscript><div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://m.webtrends.com/dcsygm2gb10000kf9xm7kfvub_9p1t/njs.gif?dcsuri=/nojavascript&amp;WT.js=No"/></div></noscript></object>
+    </div>
+</asp:Content>

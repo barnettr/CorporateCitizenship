@@ -1,0 +1,2 @@
+﻿Deployment Notes:
+	carousel.xml- Update two paths, replace staging.pop.us/mscitizenship with the live domain and path.

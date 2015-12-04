@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<carousel>
+  <assets>
+    <int key="rotationInterval">4</int>
+    <text key="learnMore">Learn More</text>
+    <text key="topBackground">#ffeae9e6</text>
+    <font key="SegoeBold">silverlight/Fonts/SegoeBd.zip</font>
+		<font key="SegoeLight">silverlight/Fonts/SegoeRg.zip</font>
+  </assets>
+
+  <items>
+    <item>
+      <text key="headline">Economic Impact</text>
+      <text key="regularBody">Microsoft and partners create 15 million IT jobs worldwide.</text>
+      <int key="textWidth">265</int>
+      <int key="textTopMargin">100</int> 
+      <int key="textLeftMargin">98</int>
+      <text key="shape">circle</text>
+      <text key="shapeColorStart">#FFEB9100</text>
+      <text key="shapeColorStop">#FFC32A00</text>
+      <text key="detailColor">#FFCC3300</text>
+      <image key="hero">silverlight/images/bg_01.jpg</image>
+			<uri key="link">http://staging.pop.us/mscitizenship/our-commitments/our-priorities/jobs-and-opportunity.aspx</uri>
+    </item>
+    <item>
+      <text key="headline">Unlimited Potential</text>
+      <text key="regularBody">Bringing opportunity to the 5 billion people who today lack access to technology.</text>
+      <int key="textWidth">265</int>
+      <int key="textTopMargin">80</int>
+      <int key="textLeftMargin">106</int>
+      <text key="shape">tear</text>
+      <text key="shapeColorStart">#FFFFE400</text>
+      <text key="shapeColorStop">#FFFFBF00</text>
+      <text key="detailColor">#FFFEC521</text>
+      <image key="hero">silverlight/images/bg_02.jpg</image>
+    </item>
+    <item>
+      <text key="headline">Elevate America</text>
+      <text key="regularBody">Workforce training for 2 million Americans to prepare for the jobs of today and tomorrow.</text>
+      <int key="textWidth">265</int>
+      <int key="textTopMargin">80</int>
+      <int key="textLeftMargin">106</int>
+      <text key="shape">leaf</text>
+      <text key="shapeColorStart">#FF629ECA</text>
+      <text key="shapeColorStop">#FF014F8D</text>
+      <text key="detailColor">#FF000000</text>
+      <image key="hero">silverlight/images/bg_03.jpg</image>
+			<uri key="link">http://staging.pop.us/mscitizenship/our-actions/in-the-community/workforce-development.aspx</uri>
+    </item>
+    <item>
+      <text key="headline">Environmental Stewardship</text>
+      <text key="regularBody">By 2010 we seek to reduce global CO2 emissions from the operation of computers by 54 million tons per year.</text>
+      <int key="textWidth">265</int>
+      <int key="textTopMargin">90</int>
+      <int key="textLeftMargin">108</int>
+      <text key="shape">circle</text>
+      <text key="shapeColorStart">#FFB0E6A6</text>
+      <text key="shapeColorStop">#FF237415</text>
+      <text key="detailColor">#FF000000</text>
+      <image key="hero">silverlight/images/bg_04.jpg</image>
+  </item>
+  </items>
+</carousel>

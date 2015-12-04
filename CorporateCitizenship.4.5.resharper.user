@@ -1,0 +1,81 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:javascripts/f:scripts.js" caret="27" fromTop="1" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-commitments/d:goals/f:default.aspx" caret="3751" fromTop="14" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-focus/f:default.aspx" caret="1216" fromTop="8" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-focus/d:operating-responsibly/f:default.aspx" caret="3954" fromTop="21" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/f:default.aspx" caret="2377" fromTop="19" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/f:default.aspx" caret="0" fromTop="0" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:stylesheets/f:screen.css" caret="20921" fromTop="49" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-commitments/f:default.aspx" caret="1688" fromTop="10" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-commitments/d:goals/f:workforce-development.aspx" caret="1109" fromTop="2" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-commitments/d:goals/f:energy-and-environment.aspx" caret="517" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-focus/d:operating-responsibly/f:governance.aspx" caret="499" fromTop="6" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-focus/d:operating-responsibly/d:governance-standards/f:compliance.aspx" caret="0" fromTop="0" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-focus/d:operating-responsibly/d:governance-standards/f:corporate-governance.aspx" caret="679" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-focus/d:operating-responsibly/d:governance-standards/f:stakeholder-engagement.aspx" caret="568" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-focus/d:operating-responsibly/d:governance-standards/f:political-engagement.aspx" caret="559" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-focus/d:operating-responsibly/d:governance-standards/f:anti-bribery-and-corruption.aspx" caret="581" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-focus/d:operating-responsibly/f:employees-and-suppliers.aspx" caret="551" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-focus/d:operating-responsibly/f:energy-and-environment.aspx" caret="570" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-focus/d:operating-responsibly/d:governance-standards/f:standards-of-conduct.aspx" caret="550" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/f:employees-and-suppliers.aspx" caret="518" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/d:employees-and-suppliers/f:supply-chain-management.aspx" caret="536" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/f:energy-and-environment.aspx" caret="551" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/d:energy-and-environment/f:products-and-technology.aspx" caret="541" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/d:energy-and-environment/f:environmental-impact.aspx" caret="568" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/d:energy-and-environment/f:carbon-footprint.aspx" caret="552" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-commitments/d:principles/f:environmental-principles.aspx" caret="523" fromTop="6" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/f:governance.aspx" caret="648" fromTop="8" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-commitments/d:goals/f:governance.aspx.cs" caret="839" fromTop="28" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-commitments/d:goals/f:innovation.aspx" caret="315" fromTop="0" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:Controls/f:PageHeader.ascx" caret="15171" fromTop="18" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/d:energy-and-environment/f:products-and-technology.aspx" caret="3657" fromTop="18" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/d:energy-and-environment/f:products-and-technology.aspx" caret="3657" fromTop="14" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/d:energy-and-environment/f:environmental-impact.aspx" caret="0" fromTop="0" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/d:energy-and-environment/f:environmental-impact.aspx" caret="3601" fromTop="16" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/d:energy-and-environment/f:environmental-impact.aspx" caret="3601" fromTop="21" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/d:energy-and-environment/f:carbon-footprint.aspx" caret="3956" fromTop="17" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/d:energy-and-environment/f:carbon-footprint.aspx" caret="3956" fromTop="11" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:Controls/f:PageHeader.ascx" caret="17043" fromTop="9" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:Controls/f:PageHeader.ascx" caret="17043" fromTop="12" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:Controls/f:PageHeader.ascx" caret="17043" fromTop="18" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-commitments/d:goals/f:energy-and-environment.aspx" caret="3207" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-focus/d:operating-responsibly/f:governance.aspx" caret="4531" fromTop="6" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-focus/d:operating-responsibly/d:governance-standards/f:standards-of-conduct.aspx" caret="3392" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-focus/d:operating-responsibly/d:governance-standards/f:compliance.aspx" caret="521" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-focus/d:operating-responsibly/d:governance-standards/f:corporate-governance.aspx" caret="3051" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-focus/d:operating-responsibly/d:governance-standards/f:stakeholder-engagement.aspx" caret="3274" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-focus/d:operating-responsibly/d:governance-standards/f:political-engagement.aspx" caret="7395" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-focus/d:operating-responsibly/d:governance-standards/f:anti-bribery-and-corruption.aspx" caret="2574" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-focus/d:operating-responsibly/f:employees-and-suppliers.aspx" caret="5331" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-focus/d:operating-responsibly/f:energy-and-environment.aspx" caret="4063" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/f:governance.aspx" caret="3908" fromTop="8" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/f:employees-and-suppliers.aspx" caret="518" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/d:employees-and-suppliers/f:supply-chain-management.aspx" caret="3568" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/f:energy-and-environment.aspx" caret="4478" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/d:energy-and-environment/f:products-and-technology.aspx" caret="3657" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/d:energy-and-environment/f:environmental-impact.aspx" caret="3601" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-actions/d:operating-responsibly/d:energy-and-environment/f:carbon-footprint.aspx" caret="3956" fromTop="7" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-commitments/d:principles/f:environmental-principles.aspx" caret="5930" fromTop="6" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-commitments/d:goals/f:governance.aspx.cs" caret="0" fromTop="0" />
+      <File id="2622F90C-5144-470C-94D6-9AA34FD9C934/d:our-commitments/d:goals/f:governance.aspx.cs" caret="839" fromTop="28" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+</Configuration>

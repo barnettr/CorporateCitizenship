@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<carousel>
+  <assets>
+    <time key="rotationInterval">0:0:7</time>
+    <text key="learnMore">Learn More</text>
+    <text key="topBackground">#ffeae9e6</text>
+  </assets>
+
+  <items>
+    <item>
+      <text key="headline">Economic Impact</text>
+      <text key="regularBodyStart">Microsoft and partners create </text>
+      <text key="boldBodyPart">15 million </text>
+      <text key="regularBodyEnd">IT jobs worldwide.</text>
+      <int key="textWidth">255</int>
+      <int key="textTopMargin">90</int>
+      <int key="textLeftMargin">97</int>
+      <text key="shape">circle</text>
+      <text key="shapeColorStart">#FFEB9100</text>
+      <text key="shapeColorStop">#FFC32A00</text>
+      <text key="detailColor">#FFCC3300</text>
+      <image key="hero">images/bg_01.jpg</image>
+			<uri key="link">/file.htm</uri>
+    </item>
+    <item>
+      <text key="headline">Unlimited Potential</text>
+      <text key="regularBodyStart">Bringing opportunity to the </text>
+      <text key="boldBodyPart">5 billion </text>
+      <text key="regularBodyEnd">people who today lack access to technology.</text>
+      <int key="textWidth">255</int>
+      <int key="textTopMargin">90</int>
+      <int key="textLeftMargin">97</int>
+      <text key="shape">tear</text>
+      <text key="shapeColorStart">#FFFFE400</text>
+      <text key="shapeColorStop">#FFFFBF00</text>
+      <text key="detailColor">#FFFEC521</text>
+      <image key="hero">images/bg_02.jpg</image>
+      <uri key="link">/file.htm</uri>
+    </item>
+    <item>
+      <text key="headline">Elevate America</text>
+      <text key="regularBodyStart">Workforce training for </text>
+      <text key="boldBodyPart">2 million </text>
+      <text key="regularBodyEnd">Americans to prepare for the jobs of today and tomorrow.</text>
+      <int key="textWidth">255</int>
+      <int key="textTopMargin">90</int>
+      <int key="textLeftMargin">97</int>
+      <text key="shape">leaf</text>
+      <text key="shapeColorStart">#FF629ECA</text>
+      <text key="shapeColorStop">#FF014F8D</text>
+      <text key="detailColor">#FF000000</text>
+      <image key="hero">images/bg_03.jpg</image>
+			<uri key="link">/file2.htm</uri>
+    </item>
+    <item>
+      <text key="headline">Environmental Stewardship</text>
+      <text key="regularBodyStart">By 2010 we seek to reduce </text>
+      <text key="boldBodyPart">54 million </text>
+      <text key="regularBodyEnd">tons of global CO2 emissions from the operation of computers.</text>
+      <int key="textWidth">255</int>
+      <int key="textTopMargin">90</int>
+      <int key="textLeftMargin">97</int>
+      <text key="shape">circle</text>
+      <text key="shapeColorStart">#FFB0E6A6</text>
+      <text key="shapeColorStop">#FF237415</text>
+      <text key="detailColor">#FF000000</text>
+      <image key="hero">images/bg_04.jpg</image>
+      <uri key="link">/file.htm</uri>
+    </item>
+  </items>
+</carousel>

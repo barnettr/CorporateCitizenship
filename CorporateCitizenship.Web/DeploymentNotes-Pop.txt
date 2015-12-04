@@ -1,0 +1,8 @@
+﻿Files to modify for deployment to staging:
+	carousel.xml- Update two paths, should be to http://staging.pop.us/mscitizenship.
+
+When packaging files for Cybage, do not include the following:
+	_test
+	CorporateCitizenship.Web.csproj
+	DeploymentNotes-Pop.txt
+

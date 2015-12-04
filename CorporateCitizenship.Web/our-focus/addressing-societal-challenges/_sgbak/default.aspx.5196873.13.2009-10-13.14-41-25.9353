@@ -1,0 +1,108 @@
+<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/masterpages/Detail.Master"
+         Inherits="CorporateCitizenship.Web.OurFocus.AddressingSocietalChallenges.DefaultPage" Src="default.aspx.cs"%>
+
+<asp:Content ID="Content5" ContentPlaceHolderID="head" runat="server">
+    <title>Addressing Societal Challenges</title>
+    <meta name="keywords" content="Microsoft Corporate Citizenship, innovation, societal challenges, technology skills" />
+    <meta name="description" content="Microsoft corporate citizenship promotes innovation to improve access to healthcare and education and to impart technology skills for today's economy." />
+</asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="header_title" runat="server">
+<h1>Addressing Societal Challenges</h1>
+</asp:Content>
+
+<%-- breadcrumbs --%>
+<asp:Content ID="Content1" ContentPlaceHolderID="breadcrumbs" runat="server">
+<li><a id="A1" runat="server" href="~/">Home</a> &gt;</li>
+<li><a id="A2" runat="server" href="~/our-focus">Our Focus</a> &gt;</li>
+<li class="last">Addressing Societal Challenges</li>
+</asp:Content>
+
+<%-- primary content block --%>
+<asp:Content ID="Content2" ContentPlaceHolderID="primary_block" runat="server">
+<p class="intro">Innovation and partnerships can improve access to quality healthcare and education, while addressing other societal challenges like energy and the environment, retraining workers for the 21st century economy, and helping governments become more transparent and inclusive.</p>
+<ul class="faux-two-column">
+	<li>
+		<img runat="server" src="~/images/our-focus/societalchallenges/healthcare.jpg" alt="">
+		<div>
+			<h3>
+				Healthcare
+			</h3>
+			<p>
+				Using technology and software to deliver healthcare can help patients access treatment, improve diagnoses, and save healthcare workers time, while cutting unnecessary costs and inefficiencies. Microsoft&rsquo;s vision is for health IT to improve the quality of healthcare, increase access and reduce costs while giving people more control over their health information.
+			</p>
+			
+			 <a class="arrow down" href="http://download.microsoft.com/download/6/7/B/67B97A86-A4B5-4580-AE53-E9EC51D089A5/Government_Engagement_Toolkits/msft_health_lowres_100509.pdf">Download PDF</a>
+			 
+		</div>
+	</li>
+	<li>
+		<img runat="server" src="~/images/our-focus/societalchallenges/education.jpg" alt="">
+		<div>
+			<h3>
+				Education
+			</h3>
+			<p>
+				Improving education, particularly in math and science, is critical to our progress. Technology opportunities in education empower teachers and administrators while linking students to new knowledge and insight. We work with partners around the world to invest in education IT infrastructure and personalized learning experiences for students. 
+			</p>
+			
+			<a class="arrow down" href="http://download.microsoft.com/download/6/7/B/67B97A86-A4B5-4580-AE53-E9EC51D089A5/Government_Engagement_Toolkits/msft_education_lowres_100509.pdf
+">Download PDF</a>
+		</div>
+	</li>
+	<li>
+		<img runat="server" src="~/images/our-focus/societalchallenges/energyenvironment.jpg" alt="">
+		<div>
+			<h3>
+				Energy &amp; Environment
+			</h3>
+			<p>
+				IT makes our economy more energy efficient, and enables individuals, businesses, and governments to understand their environmental impact and reduce their energy use. We&rsquo;re developing technologies that let people monitor and improve their use of limited resources like energy and water. We&rsquo;re also supporting government policies that promote energy efficiency, incentivize research, and help create &ldquo;green&rdquo; technology and jobs.
+			</p>
+			
+			<a class="arrow down" href="http://download.microsoft.com/download/6/7/B/67B97A86-A4B5-4580-AE53-E9EC51D089A5/Government_Engagement_Toolkits/msft_energy_env_lowres_100509.pdf">Download PDF</a>
+		</div>
+	</li>
+	<li>
+		<img runat="server" src="~/images/our-focus/societalchallenges/workforcedevelopment.jpg" alt="">
+		<div>
+			<h3>
+				Workforce Development
+			</h3>
+			<p>
+				The skills workers need to stay competitive are changing rapidly. Many new jobs&mdash;in both traditional and new industries&mdash;now require computer literacy, and so Microsoft partners with governments and non-government organizations to provide free or low-cost technology skills training to help displaced workers re-enter the workforce. We also support organizations that offer workers greater mobility and lifelong learning opportunities.
+			</p>
+		</div>
+	</li>
+	<li>
+		<img runat="server" src="~/images/our-focus/societalchallenges/futureofgovernment.jpg" alt="">
+		<div>
+			<h3>
+				Future of Government
+			</h3>
+			<p>
+				We work with governments around the world to enhance their day-to-day operations and better connect public services to their citizens. IT allows governments to serve citizens better, by improving the delivery of public services, speeding and smoothing communication between agencies and citizens, and increasing transparency.
+			</p>
+		</div>
+	</li>
+</ul>
+
+
+<div class="clearer">&nbsp;</div>
+
+</asp:Content>
+
+<%-- secondary content block --%>
+<asp:Content ID="Content3" ContentPlaceHolderID="secondary_block" runat="server">
+
+<div class="video-player">
+    <object type="application/x-silverlight" data="data:application/x-silverlight," width="210px" height="326px" ><param name="source" value="http://img.microsoft.com/showcase/silverlight/player/1/player-en.xap" /><param name="background" value="black" /><param name="version" value="2.0.31005.0" /><param name="enableHtmlAccess" value="true" /><param name="initParams" value="Uuid=f23df5f0-4cfd-41bb-8121-ea055f465b43,Autoplay=false,ShowMenu=true,ShowMarketingOverlay=false,Share=Spaces;Digg;Delicious;Facebook;Twitter;,Tabs=Email;Embed;Share;Info;,VideoInfo=Title;Views;Time;,ShowWaterMark=false,WaterMarkUrl=null,Culture=en,LearnMoreUrl=,MiscControls=FullScreen;Detached" /><param name="allowHtmlPopupWindow" value="true" /><param name="locale" value="en" /><a href="http://go.microsoft.com/fwlink/?LinkID=124807" style="text-decoration: none;"><img src="http://img.microsoft.com/showcase/silverlight/player/1/img/locale/en/install.gif" alt='Get Microsoft Silverlight' /></a><noscript><div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://m.webtrends.com/dcsygm2gb10000kf9xm7kfvub_9p1t/njs.gif?dcsuri=/nojavascript&amp;WT.js=No"/></div></noscript></object>
+</div>
+
+<div id="local-impact">	
+	<img id="Img5" class="hd" alt="Microsoft Local Impact" runat="server" src="~/images/home/microsoft-local-impact.png" onload="fixPNG(this)" />
+	<p>The Local Impact Map shows how Microsoft and its partners enable social and economic opportunity in communities everywhere.</p>
+
+    <div id="todays-story" class="filler"></div>
+</div>
+</asp:Content>

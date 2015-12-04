@@ -1,0 +1,170 @@
+﻿ <%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/masterpages/Silverlight.Master"
+    Inherits="CorporateCitizenship.Web.DefaultPage" Src="Default.aspx.cs" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <title></title>
+    <meta name="keywords" content="Microsoft Corporate Citizenship, corporate social responsibility, microsoft sustainability" />
+    <meta name="description" content="Microsoft Corporate Citizenship supports the prosperity of communities and the sustainability of the planet through people, technology, and business." />
+</asp:Content>
+
+<%-- primary content block --%>
+<asp:Content ContentPlaceHolderID="primary_block" runat="server">
+<h1>Our mission is to help people and businesses throughout the world realize their full potential. This drives our business and guides our corporate citizenship work.</h1>
+
+<p>As the world’s largest software company, we help create social and economic opportunities wherever we work, live, and do business.</p>
+
+<p>Our technology innovations, our people, our partnerships, and our day-to-day business make a meaningful contribution to the prosperity of communities and the sustainability of the planet.</p>
+
+<div class="three-column" id="commitments-focus-actions">
+	<div class="column" id="commitments">
+		<h2>Our Commitments</h2>
+		<p class="small-details">
+			The goals to which we aspire.
+			<a href="<%= ResolveUrl("~/our-commitments") %>" class="arrow right">Go</a>
+		</p>
+		<div class="clearer"></div>
+	</div>
+
+	<div class="column" id="focus">
+		<h2>Our Focus</h2>
+		<p class="small-details">
+			Policies, principles, and beliefs that guide our work every day.
+			<a href="<%= ResolveUrl("~/our-focus") %>" class="arrow right">Go</a>
+		</p>
+		<div class="clearer"></div>
+	</div>
+	
+	<div class="column last" id="actions">
+		<h2>Our Actions</h2>
+		<p class="small-details">
+			Our programs and partnerships.
+			<a href="<%= ResolveUrl("~/our-actions") %>" class="arrow right">Go</a>
+		</p>
+		<div class="clearer"></div>
+	</div>	
+
+	<div class="clearer">&nbsp;</div>
+</div>
+
+<hr class="home" />
+
+<div id="story-container">
+	<h2>Top Story</h2>
+	<div class="two-column" id="top-story">
+		<div class="column">
+			<img alt="Certified Professional" runat="server" src="~/images/home/7wayscontest.jpg" />
+		</div>
+	
+		<div class="column last">
+			<h3>10.21.09</h3>
+			<a href="http://www.7waystochangetheworld.com" class="">How could you change the world with a PC running Windows 7?</a>
+			<p>To celebrate the launch of Windows 7, we want to discover creative ways that a PC running Windows can help an organization to make an ever greater impact in the community. Submit a short video explaining your idea and the 7 best entries will each win a new PC running Windows 7 and a grant of $7,000 for nominated community organizations.</p>
+			
+			<a href="http://www.7waystochangetheworld.com" class="link arrow diagonal">Learn More</a>
+		</div>
+		
+		<div class="clearer">&nbsp;</div>
+	</div>
+	
+	
+	
+	<div class="two-column">
+		<div class="column">
+			<ul>
+				
+	<li>
+		<a href="http://www.microsoft.com/presspass/presskits/economicgrowth/" class="arrow diagonal">Aid to recovery: The Economic Impact of IT, Software, and the Microsoft Ecosystem on the Global Economy</a>
+	</li>
+			
+	<li>
+		<a href="http://www.microsoft.com/Presspass/Features/2009/sep09/09-22CGI.mspx?rss_fdn=Top%20Stories" class="arrow diagonal">&quot;Global Give Back Circle&quot; Helps End the Cycle of Poverty</a>
+	</li>
+
+				
+				
+	<li class="with-image">
+		<img alt="Story-thumb" runat="server" src="~/images/home/shutterbug-thumb.jpg" />		
+		<a href="http://news.cnet.com/8301-13860_3-10371366-56.html?part=rss&subj=news&tag=2547-1_3-0-20" class="link arrow diagonal">Microsoft shutterbugs shoot for a cause &mdash; CNET</a>
+	</li>
+
+				
+				
+	<li>
+		<a href="http://microsoftontheissues.com/cs/blogs/mscorp/archive/2009/09/30/constructive-disruption-can-drive-social-change.aspx" class="arrow diagonal">Constructive Disruption Can Drive Social Change</a>
+	</li>
+
+				
+			</ul>
+		</div>
+	
+		<div class="column last">
+			<ul>
+				
+				
+	<li>
+		<a href="http://www.france24.com/en/20091005-it-generate-58-million-new-jobs-2013-idc" class="arrow diagonal">IT to generate 5.8 million new jobs by 2013: IDC &mdash; Agence France Presse</a>
+	</li>
+
+				
+				
+	<li class="with-image">
+		<img alt="Story-thumb" runat="server" src="~/images/home/balmer-thumb.jpg" />		
+		<a href="http://www.france24.com/en/20091005-it-generate-58-http://www.france24.com/en/20091005-it-generate-58-million-new-jobs-2013-idc" class="link arrow diagonal">Information technology is the key to productivity growth. &mdash; Forbes</a>
+	</li>
+
+				
+			
+    <li>
+        <a href="http://blogs.usatoday.com/technologylive/2009/10/microsoft-predicuts-tech-job-spending-growth.html" class="arrow diagonal">Microsoft predicts tech job, spending growth &mdash; USA Today</a>
+    </li>
+    	
+			</ul>		
+		</div>
+		
+		<div class="clearer">&nbsp;</div>
+		
+	</div>
+	
+	<div class="clearer">&nbsp;</div>
+
+
+</div>
+
+
+
+</asp:Content>
+
+<%-- secondary content block --%>
+<asp:Content ContentPlaceHolderID="secondary_block" runat="server">
+<div id="local-impact">	
+	<img class="hd" alt="Microsoft Local Impact" runat="server" src="~/images/home/microsoft-local-impact.png" />
+	<p>The Local Impact Map shows how Microsoft and its partners enable social and economic opportunity in communities everywhere.</p>
+
+    <div id="todays-story" class="filler"></div>
+</div>
+
+<div id="corporate-citizenship-report">
+	<h2>Corporate Citizenship Report</h2>
+	<img class="sidebar" alt="Corporate Citizenship Report" runat="server" src="~/images/home/citizenship-report.jpg" />
+	<p>The 2009 Corporate Citizenship Report describes how we are working with others to address societal needs in communities around the world.</p>
+	<a href="http://download.microsoft.com/download/D/4/8/D480D715-29A0-41E2-86A1-8B46CB43D92F/Microsoft_Corporate_Citizenship_Annual_Report_2009.pdf" class="arrow down">Download the 2009 report (PDF file, 1.91 MB)</a>
+</div>
+
+<div id="our-partners">
+    <h2>Our Partners</h2>
+    <div class="infiniteCarousel">
+        <div class="wrapper">
+            <ul>
+                <li><a href="<%= ResolveUrl("~/partnerships") %>"><img id="Img1" runat="server" src="~/images/partner-logos/partners_01.jpg" alt="" /></a></li>
+                <li><a href="<%= ResolveUrl("~/partnerships") %>"><img id="Img2" runat="server" src="~/images/partner-logos/partners_02.jpg" alt="" /></a></li>
+                <li><a href="<%= ResolveUrl("~/partnerships") %>"><img id="Img3" runat="server" src="~/images/partner-logos/partners_03.jpg" alt="" /></a></li>
+                <li><a href="<%= ResolveUrl("~/partnerships") %>"><img id="Img4" runat="server" src="~/images/partner-logos/partners_04.jpg" alt="" /></a></li>
+                <li><a href="<%= ResolveUrl("~/partnerships") %>"><img id="Img5" runat="server" src="~/images/partner-logos/partners_05.jpg" alt="" /></a></li>
+            </ul>        
+        </div>
+        <a href="<%= ResolveUrl("~/partnerships") %>" id="view-all">View All</a>
+    </div>
+    
+</div>
+
+</asp:Content>

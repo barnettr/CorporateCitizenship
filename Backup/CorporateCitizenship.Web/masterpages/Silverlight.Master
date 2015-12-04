@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="CorporateCitizenship.Web.MasterPages.SiteMaster"%>
+
+<%@ Register TagPrefix="uc" TagName="Head" Src="~/controls/Head.ascx" %>
+<%@ Register TagPrefix="uc" TagName="PageHeader" Src="~/controls/PageHeader.ascx" %>
+<%@ Register TagPrefix="uc" TagName="PageFooter" Src="~/controls/PageFooter.ascx" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <uc:Head ID="ucHead" runat="server" />
+    <script type="text/javascript">
+        g_todaysStoryAjaxUrl = '<%= TodaysStoryAjaxUrl %>';
+    </script>
+    <asp:ContentPlaceHolder id="head" runat="server" />
+</head>
+<body class="silverlight-header">
+
+<div id="custom-doc">
+	<uc:PageHeader ID="pageHeader" runat="server" />
+	<div id="bd">
+		<div id="faux-column-bg">
+			<div id="silverlight-container">
+                <object data="data:application/x-silverlight-2," type="application/x-silverlight-2" width="920px" height="325px">
+                <param name="source" value="carousel.xap"/>
+                <param name="onError" value="onSilverlightError" />
+                <param name="initParams" value="XmlPath=carousel.xml" />
+                <param name="splashScreenSource" value="silverlight/LoadingScreen.xml" />
+                <param name="windowless" value="true" />
+                <param name="background" value="#00FFFFFF" />
+
+                <param name="minRuntimeVersion" value="3.0.40624.0" />
+                <param name="autoUpgrade" value="true" />
+                <a href="http://go.microsoft.com/fwlink/?LinkID=149156&v=3.0.40624.0" style="text-decoration:none">
+                <img src="http://go.microsoft.com/fwlink/?LinkId=108181" alt="Get Microsoft Silverlight" style="border-style:none"/>
+                </a>
+                </object><iframe id="_sl_historyFrame" style="visibility:hidden;height:0px;width:0px;border:0px"></iframe>
+			</div>
+				
+			<div class="primary">
+				<asp:ContentPlaceholder ID="primary_block" runat="server" />
+	
+	            <ul id="social-media" class="nav">
+                    <li class="first text">Share</li>
+                    <li id="su">
+                        <a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=xa-4ad77811559d7a4e">Share on Stumble Upon</a>
+                    </li>
+                    <li id="digg">
+                        <a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=xa-4ad77811559d7a4e">Share on Digg</a>
+                    </li>
+                    <li id="share_delish">
+                        <a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=xa-4ad77811559d7a4e">Share on Delicious</a>
+                    </li>
+                    
+                    <li class="text separator">Follow Us</li>
+                    <li id="follow_facebook">
+                        <a href="http://www.facebook.com/home.php?#/microsoftcitizenship?ref=ts">Follow us on Facebook</a>
+                    </li>
+                    <li id="share_twitter">
+                        <a href="http://www.twitter.com/msftcitizenship">Share On Twitter</a>
+                    </li>
+                </ul>        
+			</div>
+		
+			<div class="secondary">
+				<asp:ContentPlaceholder ID="secondary_block" runat="server" />
+			</div>
+		</div>
+	</div>
+	
+	<div class="clearer">&nbsp;</div>
+	
+    <uc:PageFooter ID="pageFooter" runat="server" />
+</div>
+</body>
+</html>

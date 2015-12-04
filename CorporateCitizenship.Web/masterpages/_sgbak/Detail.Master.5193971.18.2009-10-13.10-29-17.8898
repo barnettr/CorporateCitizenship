@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="CorporateCitizenship.Web.MasterPages.DetailMaster" %>
+
+<%@ Register TagPrefix="uc" TagName="Head" Src="~/controls/Head.ascx" %>
+<%@ Register TagPrefix="uc" TagName="PageHeader" Src="~/controls/PageHeader.ascx" %>
+<%@ Register TagPrefix="uc" TagName="PageFooter" Src="~/controls/PageFooter.ascx" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <uc:Head ID="ucHead" runat="server" />
+    <script type="text/javascript">
+        g_todaysStoryAjaxUrl = '<%= TodaysStoryAjaxUrl %>';
+    </script>
+    <asp:ContentPlaceHolder id="head" runat="server" />
+</head>
+<body class="static-header">
+
+<div id="custom-doc">
+	<uc:PageHeader ID="pageHeader" runat="server" />
+	<div id="bd">
+	   
+	    <div id="header-container" class="<%= HeaderContainerCssClass %>">
+	        <div>
+	            <asp:ContentPlaceHolder ID="header_title" runat="server" />
+	        </div>
+	    </div>			    	
+		<div id="faux-column-bg">
+	        <div id="breadcrumbs">
+	            <ul>
+	                <asp:ContentPlaceholder ID="breadcrumbs" runat="server" />
+	            </ul>
+	        </div>			
+	        			
+			<div class="primary">
+				<asp:ContentPlaceholder ID="primary_block" runat="server" />
+		        <hr />
+		        
+	            <ul id="social-media" class="nav">
+		            <li class="first text">Share</li>
+		            <li id="su"><a href="/">Share on StumbleUpon</a></li>
+		            <li id="facebook"><a href="/">Share on Facebook</a></li>
+		            <li id="digg"><a href="/">Share on Digg</a></li>
+		            <li id="share_delish"><a href="/">Share on Delicious</a></li>
+
+		            <li class="text separator">Follow Us</li>
+		            <li id="follow_facebook"><a href="/">Follow us on Facebook</a></li>	
+	            </ul>		        
+        		
+		        <a href="#" class="back-to-top arrow up">Back to Top</a>				
+			</div>
+		
+			<div class="secondary">
+				<asp:ContentPlaceholder ID="secondary_block" runat="server" />
+			</div>
+		</div>
+		
+	</div>
+	
+	<div class="clearer">&nbsp;</div>
+	
+    <uc:PageFooter ID="pageFooter" runat="server" />
+</div>
+</body>
+</html>

@@ -1,0 +1,192 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" %>
+
+
+<div id="hd">
+    <div id="search-and-logo">
+        <a runat="server" href ="~/" title="Home"><img alt="Microsoft Corporate Citizenship" id="logo" src="<%= ResolveUrl("~/images/microsoft-logo.png") %>" onload="fixPNG(this)" /></a>
+    	
+        <div id="utility-nav">
+	        <ul class="nav">
+		        <li id="current-country">United States</li>
+		        <li id="change-country"><a href="#">Change</a></li>
+		        <li id="all-microsoft-sites"><a href="#">All Microsoft Sites</a></li>
+	        </ul>
+
+	        <img alt="Fpo-bing-search" runat="server" src="~/images/fpo-bing-search.png" />
+        </div>
+    	
+    </div>
+
+    <div class="clearer" id="clear-utility">&nbsp;</div>
+
+    <ul id="primary-nav" class="nav">
+        <li id="home" class="first navItem"><a class="navLink" onmouseout="showActiveX();" runat="server" href="~/">Home</a></li>
+        <li id="commitments" class="navTrigger navItem" onmouseover="hideActiveX();">
+        	<a class="navLink" onmouseover="hideActiveX();" runat="server" href="~/our-commitments">Our Commitments</a>
+        	<ul id="subnav-our-commitments" onmouseover="hideActiveX();"  class="subnav four-column">
+		        <li class="column" onmouseover="hideActiveX();">
+			        <h2><a href="<%= ResolveUrl("~/our-commitments/goals") %>" onmouseover="hideActiveX();">Goals</a></h2>
+			        <p onmouseover="hideActiveX();">We prioritize our response to today's most pressing issues</p>
+					<ul class="links" onmouseover="hideActiveX();">						
+			            <li><a href="<%= ResolveUrl("~/our-commitments/goals/innovation.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Innovation</a></li>
+			            <li><a href="<%= ResolveUrl("~/our-commitments/goals/workforce-development.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Workforce Development</a></li>
+			            <li><a href="<%= ResolveUrl("~/our-commitments/goals/jobs-and-opportunity.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Jobs &amp; Opportunity</a></li>
+			            <li><a href="<%= ResolveUrl("~/our-commitments/goals/governance.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Governance</a></li>
+			            <li><a href="<%= ResolveUrl("~/our-commitments/goals/employees-and-suppliers.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Employees and Suppliers</a></li>
+			            <li><a href="<%= ResolveUrl("~/our-commitments/goals/energy-and-environment.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Energy and Environment</a></li>
+					</ul>
+		        </li>	
+		        <li class="column" onmouseover="hideActiveX();">
+			        <h2><a href="<%= ResolveUrl("~/our-commitments/principles") %>" onmouseover="hideActiveX();">Principles</a></h2>
+			        <p onmouseover="hideActiveX();">Principles are central to our actions.</p>
+			        <ul class="links" onmouseover="hideActiveX();">
+			            <li><a href="<%= ResolveUrl("~/our-commitments/principles/windows-principles.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Windows Principles</a></li>
+			            <li><a href="<%= ResolveUrl("~/our-commitments/principles/environmental-principles.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Environmental Principles</a></li>
+		            </ul>
+		        </li>
+	            <li class="column last" onmouseover="hideActiveX();">
+			        <h2><a href="<%= ResolveUrl("~/our-commitments/reporting") %>" onmouseover="hideActiveX();">Reporting</a></h2>
+			        <p onmouseover="hideActiveX();">We collect and share data to give insight into our corporate citizenship performance.</p>
+			        <a href="<%= ResolveUrl("~/our-commitments/reporting") %>" onmouseover="hideActiveX();" class="arrow right">More</a>					
+		        </li>
+		    </ul>
+    	</li>
+        <li id="focus" class="navTrigger navItem" onmouseover="hideActiveX();">
+        	<a class="navLink" onmouseover="hideActiveX();" runat="server" href="~/our-focus">Our Focus</a>
+		     <ul id="subnav-our-focus" onmouseover="hideActiveX();" class="subnav four-column">
+		        <li class="column first" onmouseover="hideActiveX();">
+		            <h2><a href="<%= ResolveUrl("~/our-focus/strengthening-economies") %>" onmouseover="hideActiveX();">Strengthening Economies</a></h2>
+		            <p onmouseover="hideActiveX();">Technology has the power to create economic opportunity for everyone</p>
+		            <a href="<%= ResolveUrl("~/our-focus/strengthening-economies") %>" onmouseover="hideActiveX();" class="arrow right">More</a>
+		        </li>
+		        <li class="column" onmouseover="hideActiveX();">
+		            <h2><a href="<%= ResolveUrl("~/our-focus/addressing-societal-challenges") %>" onmouseover="hideActiveX();">Address Societal Challenges</a></h2>
+		            <p onmouseover="hideActiveX();">Healthcare, education, and the environment all benefit from technology innovation</p>
+		            <a href="<%= ResolveUrl("~/our-focus/addressing-societal-challenges") %>" onmouseover="hideActiveX();" class="arrow right">More</a>
+		        </li>
+		        <li class="column" onmouseover="hideActiveX();">
+		            <h2><a href="<%= ResolveUrl("~/our-focus/promoting-a-healthy-online-ecosystem") %>" onmouseover="hideActiveX();">Promoting a Healthy Online Ecosystem</a></h2>
+		            <p onmouseover="hideActiveX();">An Internet that fosters freedom, safety and security benefits all users</p>
+		            <a href="<%= ResolveUrl("~/our-focus/promoting-a-healthy-online-ecosystem") %>" onmouseover="hideActiveX();" class="arrow right">More</a>
+		        </li>
+		        <li class="column last" onmouseover="hideActiveX();">
+		            <h2><a href="<%= ResolveUrl("~/our-focus/operating-responsibly") %>" onmouseover="hideActiveX();">Operating Responsibily</a></h2>
+		            <p>Responsible leadership and sustainability are important to the way Microsoft works.</p>
+					<ul class="links" onmouseover="hideActiveX();">	
+			            <li><a href="<%= ResolveUrl("~/our-focus/operating-responsibly/governance.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Governance</a></li>
+			                <li class="sublinks"><a href="<%= ResolveUrl("~/our-focus/operating-responsibly/governance-standards/standards-of-conduct.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Standards of Conduct</a></li>
+			                <li class="sublinks"><a href="<%= ResolveUrl("~/our-focus/operating-responsibly/governance-standards/compliance.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Compliance</a></li>
+			                <li class="sublinks"><a href="<%= ResolveUrl("~/our-focus/operating-responsibly/governance-standards/corporate-governance.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Corporate Governance</a></li>
+			                <li class="sublinks"><a href="<%= ResolveUrl("~/our-focus/operating-responsibly/governance-standards/stakeholder-engagement.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Stakeholder Engagement</a></li>
+			                <li class="sublinks"><a href="<%= ResolveUrl("~/our-focus/operating-responsibly/governance-standards/political-engagement.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Political Engagement</a></li>
+			                <li class="sublinks"><a href="<%= ResolveUrl("~/our-focus/operating-responsibly/governance-standards/anti-bribery-and-corruption.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Anti-Bribery and Corruption</a></li>
+			                
+			            <li><a href="<%= ResolveUrl("~/our-focus/operating-responsibly/employees-and-suppliers.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Employees and Suppliers</a></li>
+			                <li class="sublinks"><a href="<%= ResolveUrl("~/our-focus/operating-responsibly/employees-suppliers/diversity-and-employee-relations.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Diversity and Employee Relations</a></li>
+			                <li class="sublinks"><a href="<%= ResolveUrl("~/our-focus/operating-responsibly/employees-suppliers/supply-chain-management.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Supply Chain Management</a></li>
+			                
+			            <li><a href="<%= ResolveUrl("~/our-focus/operating-responsibly/energy-and-environment.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Energy and Environment</a></li>
+					</ul>
+		        </li>														
+		    </ul>       	
+    	</li>
+        <li id="actions" class="navTrigger navItem" onmouseover="hideActiveX();">
+        	<a class="navLink" onmouseover="hideActiveX();" runat="server" href="~/our-actions">Our Actions</a>
+			<ul id="subnav-our-focus" onmouseover="hideActiveX();" class="subnav four-column">
+                <li class="column first">
+	                <h2><a href="<%= ResolveUrl("~/our-actions/in-the-community") %>" onmouseover="hideActiveX();">In the Community</a></h2>
+	                <p onmouseover="hideActiveX();">Communities everywhere benefit from our people, innovation and business resources </p>
+                    <ul class="links" onmouseover="hideActiveX();">
+	                    <li><a href="<%= ResolveUrl("~/our-actions/in-the-community/workforce-development.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Workforce Development</a></li>
+	                    <li><a href="<%= ResolveUrl("~/our-actions/in-the-community/strengthening-ngos-through-information-technology.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Strengthening NGOs through Information Technology</a></li>
+	                    <li><a href="<%= ResolveUrl("~/our-actions/in-the-community/puget-sound-grants-and-programs.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Puget Sound Grants &amp; Programs</a></li>
+	                    <li><a href="<%= ResolveUrl("~/our-actions/in-the-community/disaster-and-humanitarian-response") %>" onmouseover="hideActiveX();" class="arrow right">Disaster &amp; Humanitarian Response</a></li>
+	                    <li><a href="<%= ResolveUrl("~/our-actions/in-the-community/employee-programs.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Employee Programs</a></li>
+	                    <li><a href="<%= ResolveUrl("~/our-actions/in-the-community/grant-recipients.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Grant Recipients</a></li>
+                    </ul>
+                </li>
+                <li class="column" onmouseover="hideActiveX();">
+	                <h2><a href="<%= ResolveUrl("~/our-actions/technology-innovation") %>" onmouseover="hideActiveX();">Technology Innovation</a></h2>
+	                <p onmouseover="hideActiveX();">Innovation is the engine of global prosperity and critical to Microsoft</p>
+                    <a href="<%= ResolveUrl("~/our-actions/technology-innovation/economic-impact") %>" onmouseover="hideActiveX();" class="arrow right">Economic Impact</a>
+                </li>
+                <li class="column" onmouseover="hideActiveX();">
+	                <h2><a href="<%= ResolveUrl("~/our-actions/operating-responsibly") %>" onmouseover="hideActiveX();">Operating Responsibly</a></h2>
+	                <p onmouseover="hideActiveX();">Responsible business practices and environmental sustainability are part of all our work.</p>
+	                <ul class="links" onmouseover="hideActiveX();">
+	                    <li><a href="<%= ResolveUrl("~/our-actions/operating-responsibly/governance.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Governance</a></li>
+	                    <li><a href="<%= ResolveUrl("~/our-actions/operating-responsibly/employees-and-suppliers.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Employees and Suppliers</a></li>
+	                        <li class="sublinks"><a href="<%= ResolveUrl("~/our-actions/operating-responsibly/employees-and-suppliers/supply-chain-management.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Supply Chain Management</a></li>
+	                    <li><a href="<%= ResolveUrl("~/our-actions/operating-responsibly/energy-and-environment.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Energy and Environment</a></li>
+	                        <li class="sublinks"><a href="<%= ResolveUrl("~/our-actions/operating-responsibly/energy-and-environment/products-and-technology.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Products and Technology</a></li>
+	                        <li class="sublinks"><a href="<%= ResolveUrl("~/our-actions/operating-responsibly/energy-and-environment/environmental-impact.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Environmental Impact</a></li>
+	                        <li class="sublinks"><a href="<%= ResolveUrl("~/our-actions/operating-responsibly/energy-and-environment/carbon-footprint.aspx") %>" onmouseover="hideActiveX();" class="arrow right">Carbon Footprint</a></li>
+	                </ul>
+                </li>
+                <li class="column last" onmouseover="hideActiveX();">
+	                <h2><a href="<%= ResolveUrl("~/our-actions/privacy-and-security") %>" onmouseover="hideActiveX();">Privacy &amp; Security</a></h2>
+	                <p onmouseover="hideActiveX();">We help protect people, businesses and families online</p>
+                    <a href="<%= ResolveUrl("~/our-actions/privacy-and-security") %>" onmouseover="hideActiveX();" class="arrow right">More</a><br />
+                </li>															
+			</ul>      	
+    	</li>
+        <li id="partnerships" class="navTrigger navItem" onmouseover="hideActiveX();">
+        	<a class="navLink" runat="server" onmouseout="showActiveX();" href="~/partnerships">Partnerships</a>
+        	<ul id="UL2" runat="server" onmouseover="hideActiveX();" class="subnav four-column">
+        	    <li class="column first">
+				    <h2><a href="<%= ResolveUrl("~/partnerships") %>">Our Partners</a></h2>
+				    <p>Who we are, our executive commitment, and the recognition we’ve received.</p>
+				    <a href="<%= ResolveUrl("~/partnerships") %>" class="arrow right">More</a>
+				</li>
+				<li class="column">
+				    <h2><a href="<%= ResolveUrl("~/about/executive-letter") %>">Executive Letter</a></h2>
+				    <p>Our senior leadership team is committed to Microsoft’s corporate citizenship work.</p>
+				    <a href="<%= ResolveUrl("~/about/executive-letter") %>" class="arrow right">More</a>
+				</li>
+				<li class="column">
+				    <h2><a href="<%= ResolveUrl("~/about/executive-letter") %>">Executive Letter</a></h2>
+				    <p>Our senior leadership team is committed to Microsoft’s corporate citizenship work.</p>
+				    <a href="<%= ResolveUrl("~/about/executive-letter") %>" class="arrow right">More</a>
+				</li>
+				<li class="column last">
+				    <h2>More About Us</h2>
+					<ul class="links">	
+				    	<li><a href="<%= ResolveUrl("~/about/connect-with-us") %>" class="arrow right">Connect With Us</a></li>
+					</ul>
+				</li>
+        	</ul>
+    	</li>
+        <li id="about" class="last navItem navTrigger" onmouseover="showActiveX();">
+        	<a class="navLink" onmouseout="showActiveX();" runat="server" href="~/about">About</a>
+        	<ul id="Ul1" class="subnav four-column">
+				<li class="column first">
+				    <h2><a href="<%= ResolveUrl("~/about") %>">About Us</a></h2>
+				    <p>Who we are, our executive commitment, and the recognition we’ve received.</p>
+				    <a href="<%= ResolveUrl("~/about") %>" class="arrow right">More</a>
+				</li>
+				<li class="column">
+				    <h2><a href="<%= ResolveUrl("~/about/executive-letter") %>">Executive Letter</a></h2>
+				    <p>Our senior leadership team is committed to Microsoft’s corporate citizenship work.</p>
+				    <a href="<%= ResolveUrl("~/about/executive-letter") %>" class="arrow right">More</a>
+				</li>
+				<li class="column">
+				    <h2><a href="<%= ResolveUrl("~/about/awards") %>">Awards</a></h2>
+				    <p>Microsoft is a recognized leader in corporate citizenship around the world.</p>
+				    <a href="<%= ResolveUrl("~/about/awards") %>" class="arrow right">More</a>
+				</li>
+				<li class="column last">
+				    <h2>More About Us</h2>
+					<ul class="links">	
+				    	<li><a href="<%= ResolveUrl("~/about/connect-with-us") %>" class="arrow right">Connect With Us</a></li>
+				    	<li><a href="<%= ResolveUrl("~/about/news-archive") %>" class="arrow right">News Archive</a></li>
+					</ul>
+				</li>														
+			</ul>
+    	</li>
+    </ul>
+
+
+
+
+    <div class="clearer" id="clear-primary-nav">&nbsp;</div>		
+</div>

@@ -1,0 +1,16 @@
+a:link {
+    display:inline-block;
+}
+
+a.right {
+     background:url(../images/arrow-strait.png) no-repeat right 4px;
+     padding-right:12px;
+}
+div#commitments-focus-actions p.small-details a {
+    zoom:1;
+}
+div#story-container .column li a {
+    background: transparent url(../images/arrow-diagonal.png) no-repeat scroll right bottom;
+    float:left;
+    width:240px;
+}

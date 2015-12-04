@@ -1,0 +1,712 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3565AEB4-B51C-43A8-8262-AEE940562F35}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CorporateCitizenship.Web</RootNamespace>
+    <AssemblyName>CorporateCitizenship.Web</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>CorporateCitizenship.Web</SccProjectName>
+    <SccLocalPath>117~c98e836d-2fa3-4db8-a518-fa08cbe50da5</SccLocalPath>
+    <SccAuxPath>http://pop-devapps/VaultService</SccAuxPath>
+    <SccProvider>SourceGear Vault Visual Studio 2005 Client:{1EA47954-8515-402d-82D9-B5C332120A8D}</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about\awards\default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="about\connect-with-us\default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="about\default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="about\executive-letter\default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="about\news-archive\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Content Include="App_Code\MasterPages\DetailMasterPage.cs" />
+    <Content Include="App_Code\XmlResponse.cs" />
+    <Content Include="App_Code\IssuesBlog\IssuesBlogRss.cs" />
+    <Content Include="App_Code\ServiceWrapper.cs" />
+    <Content Include="App_Code\IssuesBlog\RssItem.cs" />
+    <Content Include="App_Code\Globals.cs" />
+    <Content Include="App_Code\MasterPages\SiteMasterPage.cs" />
+    <Compile Include="controls\IssuesBlog.ascx.cs">
+      <DependentUpon>IssuesBlog.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\TodaysStory.ascx.cs">
+      <DependentUpon>TodaysStory.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\LocalImpactMap\LocalImpactMapWS.cs" />
+    <Compile Include="App_Code\LocalImpactMap\Response.cs" />
+    <Compile Include="App_Code\LocalImpactMap\Story.cs" />
+    <Compile Include="our-actions\in-the-community\disaster-and-humanitarian-response\community-involvement.aspx.cs">
+      <DependentUpon>community-involvement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-actions\in-the-community\disaster-and-humanitarian-response\global-partnerships.aspx.cs">
+      <DependentUpon>global-partnerships.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-actions\in-the-community\disaster-and-humanitarian-response\technology-solutions-supporting-humanitarian-relief.aspx.cs">
+      <DependentUpon>technology-solutions-supporting-humanitarian-relief.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-actions\managing-a-sustainable-business\responsible-business-practices.aspx.cs">
+      <DependentUpon>responsible-business-practices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-actions\managing-a-sustainable-business\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-actions\in-the-community\grant-recipients.aspx.cs">
+      <DependentUpon>grant-recipients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-actions\in-the-community\employee-programs.aspx.cs">
+      <DependentUpon>employee-programs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-actions\in-the-community\disaster-and-humanitarian-response\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-actions\in-the-community\puget-sound-grants-and-programs.aspx.cs">
+      <DependentUpon>puget-sound-grants-and-programs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-actions\in-the-community\strengthening-ngos-through-information-technology.aspx.cs">
+      <DependentUpon>strengthening-ngos-through-information-technology.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-actions\in-the-community\workforce-development.aspx.cs">
+      <DependentUpon>workforce-development.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-actions\in-the-community\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-actions\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-actions\technology-innovation\refurbished-computers.aspx.cs">
+      <DependentUpon>refurbished-computers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-actions\technology-innovation\economic-impact\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-actions\technology-innovation\local-language-program.aspx.cs">
+      <DependentUpon>local-language-program.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-actions\technology-innovation\partnerships-for-technology-access.aspx.cs">
+      <DependentUpon>partnerships-for-technology-access.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-actions\technology-innovation\innovation-centers.aspx.cs">
+      <DependentUpon>innovation-centers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-actions\technology-innovation\microsoft-research.aspx.cs">
+      <DependentUpon>microsoft-research.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-actions\technology-innovation\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-actions\privacy-and-security\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-commitments\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-commitments\our-goals\principles.aspx.cs">
+      <DependentUpon>principles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-commitments\our-goals\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-commitments\our-principles\environmental-principles.aspx.cs">
+      <DependentUpon>environmental-principles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-commitments\our-principles\windows-principles.aspx.cs">
+      <DependentUpon>windows-principles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-commitments\our-principles\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-commitments\our-priorities\innovation.aspx.cs">
+      <DependentUpon>innovation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-commitments\our-priorities\jobs-and-opportunity.aspx.cs">
+      <DependentUpon>jobs-and-opportunity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-commitments\our-priorities\workforce-development.aspx.cs">
+      <DependentUpon>workforce-development.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-commitments\our-priorities\managing-a-sustainable-business.aspx.cs">
+      <DependentUpon>managing-a-sustainable-business.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-commitments\our-priorities\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-commitments\reporting\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\addressing-societal-challenges\future-of-government.aspx.cs">
+      <DependentUpon>future-of-government.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\addressing-societal-challenges\energy-and-environment.aspx.cs">
+      <DependentUpon>energy-and-environment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\addressing-societal-challenges\workforce-development.aspx.cs">
+      <DependentUpon>workforce-development.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\addressing-societal-challenges\education.aspx.cs">
+      <DependentUpon>education.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\addressing-societal-challenges\healthcare.aspx.cs">
+      <DependentUpon>healthcare.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\addressing-societal-challenges\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\managing-a-sustainable-business\anti-bribery-and-corruption.aspx.cs">
+      <DependentUpon>anti-bribery-and-corruption.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\managing-a-sustainable-business\corporate-governance.aspx.cs">
+      <DependentUpon>corporate-governance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\managing-a-sustainable-business\diversity-and-employee-relations.aspx.cs">
+      <DependentUpon>diversity-and-employee-relations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\managing-a-sustainable-business\supply-chain-management.aspx.cs">
+      <DependentUpon>supply-chain-management.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\managing-a-sustainable-business\standards-of-business-conduct.aspx.cs">
+      <DependentUpon>standards-of-business-conduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\managing-a-sustainable-business\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\promoting-a-healthy-online-ecosystem\accessibility.aspx.cs">
+      <DependentUpon>accessibility.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\promoting-a-healthy-online-ecosystem\freedom-of-expression.aspx.cs">
+      <DependentUpon>freedom-of-expression.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\promoting-a-healthy-online-ecosystem\interactive-gaming-principles.aspx.cs">
+      <DependentUpon>interactive-gaming-principles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\promoting-a-healthy-online-ecosystem\security-principles.aspx.cs">
+      <DependentUpon>security-principles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\promoting-a-healthy-online-ecosystem\privacy-principles.aspx.cs">
+      <DependentUpon>privacy-principles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\promoting-a-healthy-online-ecosystem\interoperability.aspx.cs">
+      <DependentUpon>interoperability.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\promoting-a-healthy-online-ecosystem\software-and-services.aspx.cs">
+      <DependentUpon>software-and-services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\promoting-a-healthy-online-ecosystem\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\strengthening-economies\ip-incentives.aspx.cs">
+      <DependentUpon>ip-incentives.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\strengthening-economies\innovation-and-research.aspx.cs">
+      <DependentUpon>innovation-and-research.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\strengthening-economies\technology-for-development.aspx.cs">
+      <DependentUpon>technology-for-development.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our-focus\strengthening-economies\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="partnerships\boys-and-girls-club-of-america.aspx.cs">
+      <DependentUpon>boys-and-girls-club-of-america.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="partnerships\clinton-global-initiative.aspx.cs">
+      <DependentUpon>clinton-global-initiative.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="partnerships\climate-savers-computing-initiative.aspx.cs">
+      <DependentUpon>climate-savers-computing-initiative.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="partnerships\bill-and-melinda-gates-foundation.aspx.cs">
+      <DependentUpon>bill-and-melinda-gates-foundation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="partnerships\united-nations-agencies.aspx.cs">
+      <DependentUpon>united-nations-agencies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="partnerships\gsa-partners.aspx.cs">
+      <DependentUpon>gsa-partners.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="partnerships\techsoup-global.aspx.cs">
+      <DependentUpon>techsoup-global.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="partnerships\telecentre-org.aspx.cs">
+      <DependentUpon>telecentre-org.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="partnerships\npower.aspx.cs">
+      <DependentUpon>npower.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="partnerships\nethope.aspx.cs">
+      <DependentUpon>nethope.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="partnerships\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="App_Code\Utils\ConfigHelper.cs" />
+    <Compile Include="App_Code\Utils\StringHelper.cs" />
+    <Compile Include="App_Code\Utils\TodaysStoryCookie.cs" />
+    <Compile Include="App_Code\WebConfig.cs" />
+    <Compile Include="templates\split-column.aspx.cs">
+      <DependentUpon>split-column.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="templates\template.aspx.cs">
+      <DependentUpon>template.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_test\Cache.aspx.cs">
+      <DependentUpon>Cache.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="controls\TodaysStory.ascx" />
+    <Content Include="Global.asax" />
+    <Content Include="images\arrow-diagonal.png" />
+    <Content Include="images\arrows-sprite.png" />
+    <Content Include="images\div-bd-footer.png" />
+    <Content Include="images\div-bd-tile.gif" />
+    <Content Include="images\fpo-bing-search.png" />
+    <Content Include="images\fpo-silverlight-header.jpg" />
+    <Content Include="images\home\balmer.jpg" />
+    <Content Include="images\home\bill-and-melinda-gates-foundation.jpg" />
+    <Content Include="images\home\citizenship-report.jpg" />
+    <Content Include="images\home\microsoft-local-impact-person.jpg" />
+    <Content Include="images\home\microsoft-local-impact.png" />
+    <Content Include="images\home\story-thumb.jpg" />
+    <Content Include="images\home\three-column-sprite.jpg" />
+    <Content Include="images\menu\fpo.jpg" />
+    <Content Include="images\microsoft-logo-footer.png" />
+    <Content Include="images\microsoft-logo.png" />
+    <Content Include="images\nav-arrows.png" />
+    <Content Include="images\rails.png" />
+    <Content Include="javascripts\jquery-1.3.2.min.js" />
+    <Content Include="stylesheets\reset.css" />
+    <Content Include="stylesheets\screen.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="masterpages\Detail.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="about\awards\default.aspx" />
+    <Content Include="about\connect-with-us\default.aspx" />
+    <Content Include="about\default.aspx" />
+    <Content Include="about\executive-letter\default.aspx" />
+    <Content Include="about\news-archive\default.aspx" />
+    <Content Include="ajax\TodaysStory.aspx" />
+    <Content Include="carousel.xml" />
+    <Content Include="controls\IssuesBlog.ascx" />
+    <Content Include="controls\Head.ascx" />
+    <Content Include="controls\PageFooter.ascx" />
+    <Content Include="controls\PageHeader.ascx" />
+    <Content Include="DeploymentNotes.txt" />
+    <Content Include="images\arrow-down.png" />
+    <Content Include="images\arrow-strait.png" />
+    <Content Include="images\arrow-up.png" />
+    <Content Include="images\carousel\arrows.png" />
+    <Content Include="images\dropdown-sprite.gif" />
+    <Content Include="images\fpo-level2-img.png" />
+    <Content Include="images\header-bg-sprite.jpg" />
+    <Content Include="images\mini-header-sprite.gif" />
+    <Content Include="images\navbar\sprite.png" />
+    <Content Include="images\our-actions\in-the-community\disasterresponse.jpg" />
+    <Content Include="images\our-actions\in-the-community\disasterresponse\disaster_01.jpg" />
+    <Content Include="images\our-actions\in-the-community\disasterresponse\disaster_02.jpg" />
+    <Content Include="images\our-actions\in-the-community\disasterresponse\disaster_03.jpg" />
+    <Content Include="images\our-actions\in-the-community\disasterresponse\disaster_04.jpg" />
+    <Content Include="images\our-actions\in-the-community\disasterresponse\disaster_05.jpg" />
+    <Content Include="images\our-actions\in-the-community\disasterresponse\disaster_06.jpg" />
+    <Content Include="images\our-actions\in-the-community\disasterresponse\disaster_08.jpg" />
+    <Content Include="images\our-actions\in-the-community\disasterresponse\disaster_09.jpg" />
+    <Content Include="images\our-actions\in-the-community\disasterresponse\disaster_10.jpg" />
+    <Content Include="images\our-actions\in-the-community\disasterresponse\techindustrypartners.jpg" />
+    <Content Include="images\our-actions\in-the-community\employeeprograms.jpg" />
+    <Content Include="images\our-actions\in-the-community\employeeprograms\givingprograms.jpg" />
+    <Content Include="images\our-actions\in-the-community\employeeprograms\volunteeringprograms.jpg" />
+    <Content Include="images\our-actions\in-the-community\grantrecipients.jpg" />
+    <Content Include="images\our-actions\in-the-community\grantrecipients\grantrecipients.jpg" />
+    <Content Include="images\our-actions\in-the-community\ngocapacitybuilding.jpg" />
+    <Content Include="images\our-actions\in-the-community\pugetsoundgrantsprograms.jpg" />
+    <Content Include="images\our-actions\in-the-community\workforcedevelopment.jpg" />
+    <Content Include="images\our-actions\inthecommunity.jpg" />
+    <Content Include="images\our-actions\inthecommunity\disasterresponse.jpg" />
+    <Content Include="images\our-actions\inthecommunity\disasterresponse\disaster_01.jpg" />
+    <Content Include="images\our-actions\inthecommunity\disasterresponse\disaster_02.jpg" />
+    <Content Include="images\our-actions\inthecommunity\disasterresponse\disaster_03.jpg" />
+    <Content Include="images\our-actions\inthecommunity\disasterresponse\disaster_04.jpg" />
+    <Content Include="images\our-actions\inthecommunity\disasterresponse\disaster_05.jpg" />
+    <Content Include="images\our-actions\inthecommunity\disasterresponse\disaster_06.jpg" />
+    <Content Include="images\our-actions\inthecommunity\disasterresponse\disaster_08.jpg" />
+    <Content Include="images\our-actions\inthecommunity\disasterresponse\disaster_09.jpg" />
+    <Content Include="images\our-actions\inthecommunity\disasterresponse\disaster_10.jpg" />
+    <Content Include="images\our-actions\inthecommunity\disasterresponse\techindustrypartners.jpg" />
+    <Content Include="images\our-actions\inthecommunity\employeeprograms.jpg" />
+    <Content Include="images\our-actions\inthecommunity\employeeprograms\givingprograms.jpg" />
+    <Content Include="images\our-actions\inthecommunity\employeeprograms\volunteeringprograms.jpg" />
+    <Content Include="images\our-actions\inthecommunity\grantrecipients.jpg" />
+    <Content Include="images\our-actions\inthecommunity\grantrecipients\grantrecipients.jpg" />
+    <Content Include="images\our-actions\inthecommunity\ngocapacitybuilding.jpg" />
+    <Content Include="images\our-actions\inthecommunity\pugetsoundgrantsprograms.jpg" />
+    <Content Include="images\our-actions\inthecommunity\workforcedevelopment.jpg" />
+    <Content Include="images\our-actions\managingasustainablebusiness\responsiblebusinesspractices.jpg" />
+    <Content Include="images\our-actions\managingsustainablebusiness.jpg" />
+    <Content Include="images\our-actions\privacysecurity\onlinesafetyeducation.jpg" />
+    <Content Include="images\our-actions\privacysecurity\onlinesecurity.jpg" />
+    <Content Include="images\our-actions\privacysecurity\privacy.jpg" />
+    <Content Include="images\our-actions\privacysecurity\security.jpg" />
+    <Content Include="images\our-actions\privacy_security.jpg" />
+    <Content Include="images\our-actions\technologyinnovation.jpg" />
+    <Content Include="images\our-actions\technologyinnovation\innovationcenters.jpg" />
+    <Content Include="images\our-actions\technologyinnovation\locallanguage.jpg" />
+    <Content Include="images\our-actions\technologyinnovation\msresearch.jpg" />
+    <Content Include="images\our-actions\technologyinnovation\refurbishedcomputers.jpg" />
+    <Content Include="images\our-actions\technologyinnovation\techaccess.jpg" />
+    <Content Include="images\our-actions\technologyinnovation\techimpact.jpg" />
+    <Content Include="images\our-actions\up_logo.jpg" />
+    <Content Include="images\our-commitments\environmentalprinciples.jpg" />
+    <Content Include="images\our-commitments\fpo-image.jpg" />
+    <Content Include="images\our-commitments\ourgoals.jpg" />
+    <Content Include="images\our-commitments\ourgoals\environmental.jpg" />
+    <Content Include="images\our-commitments\ourgoals\environmental2.jpg" />
+    <Content Include="images\our-commitments\ourgoals\globalnetwork.jpg" />
+    <Content Include="images\our-commitments\ourgoals\interoperability.jpg" />
+    <Content Include="images\our-commitments\ourgoals\privacy.jpg" />
+    <Content Include="images\our-commitments\ourprinciples.jpg" />
+    <Content Include="images\our-commitments\ourpriorities.jpg" />
+    <Content Include="images\our-commitments\ourpriorities\jobsandopportunity.jpg" />
+    <Content Include="images\our-commitments\ourpriorities\sustainablebusinesspractices.jpg" />
+    <Content Include="images\our-commitments\ourpriorities\techinnovation.jpg" />
+    <Content Include="images\our-commitments\ourpriorities\workforcedev.jpg" />
+    <Content Include="images\our-commitments\reporting.jpg" />
+    <Content Include="images\our-focus\onlineecosystem.jpg" />
+    <Content Include="images\our-focus\managingsustainablebusiness.jpg" />
+    <Content Include="images\our-focus\onlineecosystem\accessibility.jpg" />
+    <Content Include="images\our-focus\onlineecosystem\freedomofexpression.jpg" />
+    <Content Include="images\our-focus\onlineecosystem\internetsecurity.jpg" />
+    <Content Include="images\our-focus\onlineecosystem\interoperability.jpg" />
+    <Content Include="images\our-focus\onlineecosystem\softwareservices.jpg" />
+    <Content Include="images\our-focus\publicpolicyagenda.jpg" />
+    <Content Include="images\our-focus\societalchallenges\education.jpg" />
+    <Content Include="images\our-focus\societalchallenges\energyenvironment.jpg" />
+    <Content Include="images\our-focus\societalchallenges\futureofgovernment.jpg" />
+    <Content Include="images\our-focus\societalchallenges\healthcare.jpg" />
+    <Content Include="images\our-focus\societalchallenges\workforcedevelopment.jpg" />
+    <Content Include="images\our-focus\societalchanges.jpg" />
+    <Content Include="images\our-focus\strengtheneconomies\attractingglobaltalent.jpg" />
+    <Content Include="images\our-focus\strengtheneconomies\globalitmarket.jpg" />
+    <Content Include="images\our-focus\strengtheneconomies\innovationresearch.jpg" />
+    <Content Include="images\our-focus\strengtheneconomies\ipincentives.jpg" />
+    <Content Include="images\our-focus\strengtheneconomies\technologyfordevelopment.jpg" />
+    <Content Include="images\our-focus\strengtheneconomies\technologyinfrastructures.jpg" />
+    <Content Include="images\our-focus\strengtheningeconomies.jpg" />
+    <Content Include="images\our-focus\sustainablebusiness\antibriberycorruption.jpg" />
+    <Content Include="images\our-focus\sustainablebusiness\businessconduct.jpg" />
+    <Content Include="images\our-focus\sustainablebusiness\employeerelationsdiversity.jpg" />
+    <Content Include="images\our-focus\sustainablebusiness\environmental.jpg" />
+    <Content Include="images\our-focus\sustainablebusiness\governance.jpg" />
+    <Content Include="images\our-focus\sustainablebusiness\humanrights.jpg" />
+    <Content Include="images\our-focus\sustainablebusiness\supplychainmanagement.jpg" />
+    <Content Include="images\partnerships\partner-logos\BMGF_Library_photo.jpg" />
+    <Content Include="images\partnerships\partner-logos\logo_aggregate.jpg" />
+    <Content Include="images\partnerships\partner-logos\logo_ashoka.jpg" />
+    <Content Include="images\partnerships\partner-logos\logo_bmg_foundation.jpg" />
+    <Content Include="images\partnerships\partner-logos\logo_bngclub.jpg" />
+    <Content Include="images\partnerships\partner-logos\logo_cgi.jpg" />
+    <Content Include="images\partnerships\partner-logos\logo_climatesavers.jpg" />
+    <Content Include="images\partnerships\partner-logos\logo_gsa.jpg" />
+    <Content Include="images\partnerships\partner-logos\logo_nethope.jpg" />
+    <Content Include="images\partnerships\partner-logos\logo_npower.jpg" />
+    <Content Include="images\partnerships\partner-logos\logo_techsoup.jpg" />
+    <Content Include="images\partnerships\partner-logos\logo_telecentre.jpg" />
+    <Content Include="images\partnerships\partner-logos\logo_una.jpg" />
+    <Content Include="images\partnerships\partner-logos\partners_01.jpg" />
+    <Content Include="images\partnerships\partner-logos\partners_02.jpg" />
+    <Content Include="images\partnerships\partner-logos\partners_03.jpg" />
+    <Content Include="images\partnerships\partner-logos\partners_04.jpg" />
+    <Content Include="images\partnerships\partner-logos\partners_05.jpg" />
+    <Content Include="images\sidebar_corner.png" />
+    <Content Include="images\social-bookmarks\footer_social_icon_links.gif" />
+    <Content Include="images\vertical-callout-bottom.gif" />
+    <Content Include="images\vertical-callout-top.gif" />
+    <Content Include="javascripts\application.js" />
+    <Content Include="javascripts\controls.js" />
+    <Content Include="javascripts\dragdrop.js" />
+    <Content Include="javascripts\effects.js" />
+    <Content Include="javascripts\flyoutnav.js" />
+    <Content Include="javascripts\silverlight.js" />
+    <Content Include="javascripts\ui.core.js" />
+    <Content Include="javascripts\prototype.js" />
+    <Content Include="javascripts\scripts.js" />
+    <Content Include="javascripts\ui.tabs.js" />
+    <Content Include="masterpages\Silverlight.Master" />
+    <Content Include="our-actions\in-the-community\disaster-and-humanitarian-response\community-involvement.aspx" />
+    <Content Include="our-actions\in-the-community\disaster-and-humanitarian-response\global-partnerships.aspx" />
+    <Content Include="our-actions\in-the-community\disaster-and-humanitarian-response\technology-solutions-supporting-humanitarian-relief.aspx" />
+    <Content Include="our-actions\managing-a-sustainable-business\responsible-business-practices.aspx" />
+    <Content Include="our-actions\managing-a-sustainable-business\default.aspx" />
+    <Content Include="our-actions\in-the-community\grant-recipients.aspx" />
+    <Content Include="our-actions\in-the-community\employee-programs.aspx" />
+    <Content Include="our-actions\in-the-community\disaster-and-humanitarian-response\default.aspx" />
+    <Content Include="our-actions\in-the-community\puget-sound-grants-and-programs.aspx" />
+    <Content Include="our-actions\in-the-community\strengthening-ngos-through-information-technology.aspx" />
+    <Content Include="our-actions\in-the-community\workforce-development.aspx" />
+    <Content Include="our-actions\in-the-community\default.aspx" />
+    <Content Include="our-actions\default.aspx" />
+    <Content Include="our-actions\technology-innovation\refurbished-computers.aspx" />
+    <Content Include="our-actions\technology-innovation\economic-impact\default.aspx" />
+    <Content Include="our-actions\technology-innovation\local-language-program.aspx" />
+    <Content Include="our-actions\technology-innovation\partnerships-for-technology-access.aspx" />
+    <Content Include="our-actions\technology-innovation\innovation-centers.aspx" />
+    <Content Include="our-actions\technology-innovation\microsoft-research.aspx" />
+    <Content Include="our-actions\technology-innovation\default.aspx" />
+    <Content Include="our-actions\privacy-and-security\default.aspx" />
+    <Content Include="our-commitments\default.aspx" />
+    <Content Include="our-commitments\our-goals\principles.aspx" />
+    <Content Include="our-commitments\our-goals\default.aspx" />
+    <Content Include="our-commitments\our-principles\environmental-principles.aspx" />
+    <Content Include="our-commitments\our-principles\windows-principles.aspx" />
+    <Content Include="our-commitments\our-principles\default.aspx" />
+    <Content Include="our-commitments\our-priorities\innovation.aspx" />
+    <Content Include="our-commitments\our-priorities\jobs-and-opportunity.aspx" />
+    <Content Include="our-commitments\our-priorities\workforce-development.aspx" />
+    <Content Include="our-commitments\our-priorities\managing-a-sustainable-business.aspx" />
+    <Content Include="our-commitments\our-priorities\default.aspx" />
+    <Content Include="our-commitments\reporting\default.aspx" />
+    <Content Include="our-focus\addressing-societal-challenges\future-of-government.aspx" />
+    <Content Include="our-focus\addressing-societal-challenges\energy-and-environment.aspx" />
+    <Content Include="our-focus\addressing-societal-challenges\workforce-development.aspx" />
+    <Content Include="our-focus\addressing-societal-challenges\education.aspx" />
+    <Content Include="our-focus\addressing-societal-challenges\healthcare.aspx" />
+    <Content Include="our-focus\addressing-societal-challenges\default.aspx" />
+    <Content Include="our-focus\managing-a-sustainable-business\anti-bribery-and-corruption.aspx" />
+    <Content Include="our-focus\managing-a-sustainable-business\corporate-governance.aspx" />
+    <Content Include="our-focus\managing-a-sustainable-business\diversity-and-employee-relations.aspx" />
+    <Content Include="our-focus\managing-a-sustainable-business\supply-chain-management.aspx" />
+    <Content Include="our-focus\managing-a-sustainable-business\standards-of-business-conduct.aspx" />
+    <Content Include="our-focus\managing-a-sustainable-business\default.aspx" />
+    <Content Include="our-focus\default.aspx" />
+    <Content Include="our-focus\promoting-a-healthy-online-ecosystem\accessibility.aspx" />
+    <Content Include="our-focus\promoting-a-healthy-online-ecosystem\freedom-of-expression.aspx" />
+    <Content Include="our-focus\promoting-a-healthy-online-ecosystem\interactive-gaming-principles.aspx" />
+    <Content Include="our-focus\promoting-a-healthy-online-ecosystem\security-principles.aspx" />
+    <Content Include="our-focus\promoting-a-healthy-online-ecosystem\privacy-principles.aspx" />
+    <Content Include="our-focus\promoting-a-healthy-online-ecosystem\interoperability.aspx" />
+    <Content Include="our-focus\promoting-a-healthy-online-ecosystem\software-and-services.aspx" />
+    <Content Include="our-focus\promoting-a-healthy-online-ecosystem\default.aspx" />
+    <Content Include="our-focus\strengthening-economies\ip-incentives.aspx" />
+    <Content Include="our-focus\strengthening-economies\innovation-and-research.aspx" />
+    <Content Include="our-focus\strengthening-economies\technology-for-development.aspx" />
+    <Content Include="our-focus\strengthening-economies\default.aspx" />
+    <Content Include="partnerships\boys-and-girls-club-of-america.aspx" />
+    <Content Include="partnerships\clinton-global-initiative.aspx" />
+    <Content Include="partnerships\climate-savers-computing-initiative.aspx" />
+    <Content Include="partnerships\bill-and-melinda-gates-foundation.aspx" />
+    <Content Include="partnerships\united-nations-agencies.aspx" />
+    <Content Include="partnerships\gsa-partners.aspx" />
+    <Content Include="partnerships\techsoup-global.aspx" />
+    <Content Include="partnerships\telecentre-org.aspx" />
+    <Content Include="partnerships\npower.aspx" />
+    <Content Include="partnerships\nethope.aspx" />
+    <Content Include="partnerships\default.aspx" />
+    <Content Include="silverlight\images\bg_01.jpg" />
+    <Content Include="silverlight\images\bg_02.jpg" />
+    <Content Include="silverlight\images\bg_03.jpg" />
+    <Content Include="silverlight\images\bg_04.jpg" />
+    <Content Include="silverlight\images\indiankids.png" />
+    <Content Include="silverlight\images\kids.png" />
+    <Content Include="silverlight\images\peoplecomputers.png" />
+    <Content Include="DeploymentNotes-Pop.txt" />
+    <Content Include="stylesheets\blank.gif" />
+    <Content Include="stylesheets\ie.css" />
+    <Content Include="stylesheets\ie6.css" />
+    <Content Include="stylesheets\iepngfix.htc" />
+    <Content Include="templates\split-column.aspx" />
+    <Content Include="templates\template.aspx" />
+    <Content Include="_test\Cache.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="carousel.xap" />
+    <None Include="silverlight\Fonts\SegoeBd.ttf" />
+    <None Include="silverlight\Fonts\SegoeBd.zip" />
+    <None Include="silverlight\Fonts\SegoeL.ttf" />
+    <None Include="silverlight\Fonts\SegoeL.zip" />
+    <None Include="silverlight\Fonts\SegoeRg.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="images\about\" />
+    <Folder Include="images\ngo-connect\" />
+    <Folder Include="images\our-actions\in-the-community\ngo\" />
+    <Folder Include="images\our-actions\in-the-community\pugetgrants\" />
+    <Folder Include="images\our-actions\in-the-community\workforcedev\" />
+    <Folder Include="images\our-actions\inthecommunity\ngo\" />
+    <Folder Include="images\our-actions\inthecommunity\pugetgrants\" />
+    <Folder Include="images\our-actions\inthecommunity\workforcedev\" />
+    <Folder Include="ngo-connect\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4730</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/CorporateCitizenship</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

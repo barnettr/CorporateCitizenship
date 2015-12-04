@@ -1,0 +1,28 @@
+img, div, a, input {
+	behavior: url(iepngfix.htc)
+}
+div#hd,
+div#bd,
+div#faux-column-bg,
+ul.faux-two-column li,
+div#story-container .column li {
+    zoom: 1;
+}
+img#imgCorner {
+    display: none;
+}
+div#clear-utility {
+    float: left;
+}
+div.secondary-video {
+    margin-left: -18px !important;
+}
+div#hd .four-column {
+	/*background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../../images/four-column.png');*/
+	width: 830px;
+	background: #fff;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}

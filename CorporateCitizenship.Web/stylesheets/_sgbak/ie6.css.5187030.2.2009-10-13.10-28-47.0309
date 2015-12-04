@@ -1,0 +1,36 @@
+img, div, a, input {
+	behavior: url(iepngfix.htc)
+}
+
+.subnav {
+	position: absolute;
+	top: 39px;
+	left: -500px !important;
+	overflow: hidden;
+	border: 1px solid #b5b5b5;
+	display: none;
+	padding-bottom: 35px;
+	z-index: 888;
+}
+
+div#header-container {
+	height: 154px !important;
+}
+
+div#bd {
+    overflow: hidden;
+	padding-bottom: 154px;
+    background: #fff;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='../images/div-bd-footer.png');
+    background-repeat: no-repeat;
+    background-position: left bottom !important;
+    zoom:1;
+}
+
+div#faux-column-bg {
+	overflow: hidden;
+	background: #fff url(../images/div-bd-tile.gif) repeat-y left top;
+	background-color:#fff !important;
+	display:inline-block !important;
+	height:600px !important;
+}

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Canvas
+	xmlns="http://schemas.microsoft.com/client/2007"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Height="920" Width="325"
+	Background="#FFDCDAD6"
+	Clip="M0,0 L873,0 C910,2 919.79175,11.347824 920,53 L920,325 L0,325 z"
+	>
+</Canvas>

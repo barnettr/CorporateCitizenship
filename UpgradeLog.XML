@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CorporateCitizenship">
+</Property><Property Name="Solution File" Value="C:\wamp\www\CorporateCitizenship\CorporateCitizenship.sln">
+</Property><Property Name="User Options File" Value="C:\wamp\www\CorporateCitizenship\CorporateCitizenship.suo">
+</Property><Property Name="Date" Value="Monday, December 05, 2011">
+</Property><Property Name="Time" Value="14:47 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="CorporateCitizenship.sln" Description="File successfully backed up as C:\wamp\www\CorporateCitizenship\Backup\CorporateCitizenship.sln">
+</Event><Event ErrorLevel="0" Project="" Source="CorporateCitizenship.suo" Description="File successfully backed up as C:\wamp\www\CorporateCitizenship\Backup\CorporateCitizenship.suo">
+</Event><Event ErrorLevel="0" Project="" Source="CorporateCitizenship.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="CorporateCitizenship.sln" Description="Converted">
+</Event></UpgradeLog>
